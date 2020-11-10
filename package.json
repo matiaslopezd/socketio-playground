@@ -1,0 +1,27 @@
+{
+  "name": "socketio-playground",
+  "version": "1.0.0",
+  "description": "This websocket server is focus in play with custom configuration, authentication headers, create and verify JWT and other general things.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "auth-header": "1.0.0",
+    "chai": "4.2.0",
+    "chain-request": "0.0.7",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mocha": "8.2.1",
+    "socket.io": "3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "rest api",
+    "socketio",
+    "websocket",
+    "videsk"
+  ]
+}
